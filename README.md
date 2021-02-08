@@ -5,4 +5,8 @@ The purpose of this python script is to build a list of daily holdings from a do
 
 The python script will translate any buys to a positive quantity and any sales to a negative quantity so that during daily summation, the buys will be added to the total quantity per symbol and the sales will be subtracted.
 
-To run the script, 
+To run the script, you will need to input three pieces of information. 1.) RobinHood Username, 2.) RobinHood Password, 3.) Your Jupyter Notebooks directory folder 
+
+The RobinHood information will need to be placed here:
+
+![alt text](http://url/to/img.png)
