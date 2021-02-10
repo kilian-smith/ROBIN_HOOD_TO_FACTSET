@@ -19,4 +19,4 @@ Specify the appropriate folder where your Jupyter Notebook directory is placed. 
 
 Here is where you will need to specify the folder in the script:
 
-![](images/JUPYTER_NOTEBOOK.png)
+![](images/JUPYTER_FOLDER.png)
