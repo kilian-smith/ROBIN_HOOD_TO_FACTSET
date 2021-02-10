@@ -9,4 +9,4 @@ To run the script, you will need to input three pieces of information. 1.) Robin
 
 The RobinHood information will need to be placed here:
 
-![alt text](http://url/to/img.png)
+
