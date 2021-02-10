@@ -7,6 +7,9 @@ The python script will translate any buys to a positive quantity and any sales t
 
 To run the script, you will need to input three pieces of information. 1.) RobinHood Username, 2.) RobinHood Password, 3.) Your Jupyter Notebooks directory folder 
 
+###Step 1+2:
+
 The RobinHood information will need to be placed here:
 
+![](ROBIN_HOOD_TO_FACTSET/images/RH_LOGIN.png)
 
