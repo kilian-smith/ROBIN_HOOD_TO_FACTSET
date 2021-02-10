@@ -1,5 +1,5 @@
 # ROBIN_HOOD_TO_FACTSET ReadMe
-Python script for pulling transactions from Robin Hood and formatting them in FactSet friendly upload format
+This is a python script for pulling transactions from Robin Hood and formatting them in FactSet friendly upload format
 
 The purpose of this python script is to build a list of daily holdings from a downloaded RobinHood transaction file. FactSet applications (PA3) can only read and use holdings data when it is stated on a daily basis in a cumulative sum format. Even if there was no trade on a particular date, the symbol and quantity held must be displayed on that date. 
 
@@ -20,3 +20,6 @@ Specify the appropriate folder where your Jupyter Notebook directory is placed. 
 Here is where you will need to specify the folder in the script:
 
 ![](images/JUPYTER_FOLDER.png)
+
+### Step 3:
+You should be all set to run the script now. To run, all you need to do is either click into each cell and hit SHIFT + ENTER or click on the 
