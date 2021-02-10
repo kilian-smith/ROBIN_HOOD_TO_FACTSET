@@ -22,4 +22,11 @@ Here is where you will need to specify the folder in the script:
 ![](images/JUPYTER_FOLDER.png)
 
 ### Step 3:
-You should be all set to run the script now. To run, all you need to do is either click into each cell and hit SHIFT + ENTER or click on the 
+You should be all set to run the script now. To run, all you need to do is either click into each cell one by one and hit SHIFT + ENTER or click on the "Cell" tab and then select "Run All". Note that the "Run All" method is the easiest way:
+
+![](images/RUN_ALL.png)
+
+### Final Product:
+Now in your Jupyter Notebook directory folder, you will see two Excel files, one entitled MY_TRANSACTION_DATA.CSV and another entitled MY_PORTFOLIO_DATA.XLSX:
+
+
