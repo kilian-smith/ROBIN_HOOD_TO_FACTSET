@@ -5,6 +5,10 @@ The purpose of this python script is to build a list of daily holdings from a do
 
 The python script will translate any buys to a positive quantity and any sales to a negative quantity so that during daily summation, the buys will be added to the total quantity per symbol and the sales will be subtracted.
 
+The script leverages the Robin_Stocks python library. More information on that library can be found here: https://robin-stocks.readthedocs.io/en/latest/functions.html
+
+The script also leverages the Pandas python library. This is a common library and information can be found anywhere. 
+
 To run the script, you will need to input three pieces of information. 1.) RobinHood Username, 2.) RobinHood Password, 3.) Your Jupyter Notebooks directory folder 
 
 ### Step 1: 
@@ -22,11 +26,13 @@ Here is where you will need to specify the folder in the script:
 ![](images/JUPYTER_FOLDER.png)
 
 ### Step 3:
-You should be all set to run the script now. To run, all you need to do is either click into each cell one by one and hit SHIFT + ENTER or click on the "Cell" tab and then select "Run All". Note that the "Run All" method is the easiest way:
+You should be all set to run the script now. To run, all you need to do is either click into each cell one by one and hit SHIFT + ENTER or click on the "Cell" tab and then select "Run All". Note that the "Run All" method is the easiest way. If you choose to click into each cell and hit SHIFT + ENTER, you will need to what for each cell to finish running before running the next cell.
 
 ![](images/RUN_ALL.png)
 
 ### Final Product:
 Now in your Jupyter Notebook directory folder, you will see two Excel files, one entitled MY_TRANSACTION_DATA.CSV and another entitled MY_PORTFOLIO_DATA.XLSX:
 
+![](images/FINAL.png)
 
+The transaction file is what was pulled from your RobinHood account using the Robin_Stocks python library. The portfolio file is the FactSet formatted holdings data ready for upload via FactSet's Data Central (@DC2) application. 
