@@ -18,6 +18,8 @@ Input RobinHood login info. The RobinHood information will need to be placed her
 
 *Note that if you leverage two factor authentication on your Robinhood account, you will need to input the code sent to your phone or email into the python script (where asked) in order to run the latter cells.
 
+![](images/TWO_FACTOR.png)
+
 ### Step 2: 
 Specify the appropriate folder where your Jupyter Notebook directory is placed. Normally it will be your specific user folder in the "Users" folder of the C drive. For example, mine is C:\Users\ksmith02. However, this can differ if you have manually changed it. You can tell what folder it is from the Anaconda startup window:
 
